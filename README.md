@@ -1,4 +1,4 @@
-# bootstrap
+# bootstrap1
 This contains just the basic bootstrap One Page.
 Following features of bootsrap are used 
 -Jumbotron
