@@ -1,0 +1,185 @@
+/*NOTE ADD LINK FOR CSS STYLE AFTER BOOTSTRAP LINK>*/
+  body{
+    font-family: "Montserrat";
+    
+  }
+
+#title .container-fluid{
+    padding:3% 15%;
+  
+    }
+
+    #title{
+    color:white;
+    background-color:#ff4c68;
+ }
+
+ 
+.row .r12 h1{
+    font-family:"Montserrat";
+    line-height:1.5;
+    font-size:3.5rem;
+  
+}
+
+/* command forward slash  */
+/* Navigation stlye */
+.navbar{
+  padding: 0 0  4.5rem;  
+  /*  to align navbar brand with title */
+}
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size:2.5rem;
+  
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family:"Montserrat"
+}
+
+
+/* Buttons */
+/* Add custom class incase if we want to use btn later it will change that tfoot */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+  width:60%;
+  transform:rotate(25deg);
+  position:absolute;
+  
+}
+
+/* features */
+.row.features{
+  padding:7% 15%  ;
+  background-color: white;
+  z-index:1;
+  position:relative;
+
+}
+.feature-box{
+  text-align: center;
+  padding:5%;
+}
+h3{
+  font-family: "Montserrat",bold;
+  font-weight: bold;
+}
+p{
+  color:gray;
+}
+.icon{
+  color:#Ef8172;
+  margin-bottom:1rem;
+}
+.icon:hover{
+  color:red;
+}
+
+
+
+/* Testimonials */
+
+#testimonials{
+ 
+  background-color:#ff4c68;
+  
+  
+  text-align:center;
+  color:white;
+
+
+}
+h2{
+  font-family:"Montserrat";
+  line-height:1.5;
+  font-size:3rem;
+
+}
+.img1{
+  width:150px;
+  border-radius: 100px;
+  padding:15px;
+}
+#press{
+  background-color:#ff4c68;
+  text-align:center;
+}
+.img-press{
+  margin:10px 20px 10px;
+  width:15%;
+}
+
+.carousel-item
+{
+  padding:3% 15%;
+}
+.btn{
+  padding:10px 20px;
+}
+.r1{
+  padding:50px;
+}
+#pricing{
+  text-align:center;
+  padding:100px;
+}
+
+
+/* media querry */
+
+@media (max-width:992px){
+  .title-image{
+    position:static;
+    transform:rotate(0);
+    text-align: center;
+    
+  }
+  h1{
+    text-align:center;
+  }
+  
+
+}
+#cta{
+  
+  
+  padding:7% 15%;
+  color:white;
+  text-align: center;
+  background-color:#ff4c68;
+  
+}
+#bottom{
+  
+  margin:0 auto 0 auto;
+  font-size:3.5rem;
+  font-family: "Montserrat";
+  line-height: 2;
+}
+
+
+
+#footer{
+  text-align: center;
+  padding:80px 40px;
+  color:gray;
+}
+.social-media1:hover{
+  color:burlywood;
+}
+.social-media1{
+  margin:5px 10px; 
+  color:black;
+}
+
+.coloured-section{
+  background-color:#ff4c68;
+}
